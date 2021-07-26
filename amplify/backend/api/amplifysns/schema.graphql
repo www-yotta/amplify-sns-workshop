@@ -57,6 +57,7 @@ type FollowRelationship
   followerId: ID!
   timestamp: Int!
 }
+
 type Timeline
   @model(
     mutations: { create: "createTimeline", delete: null, update: null }
